@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-family: sans-serif;
+}
+
+
+.catalog,
+.totalInfo {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.cart-container {
+    display: flex;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 840px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    background-image: url(img/img_background/—Pngtree—pastel\ watercolour\ background\ 0908_3552469.jpg);
+}
+
+.card-img {
+    width: 80px;
+}
+
+.card,
+.cart {
+    width: 150px;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.cart {
+    width: 150px;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+.galleryWrapper__screen {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: block;
+    text-align: center;
+}
+
+.galleryWrapper__image {
+    max-height: 80%;
+    max-width: 80%;
+    z-index: 101;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.galleryWrapper__close {
+    z-index: 101;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
